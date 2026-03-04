@@ -1,0 +1,9 @@
+services:
+  ffmpeg:
+    image: jrottenberg/ffmpeg:latest
+    container_name: ffmpeg
+    entrypoint: ["tail", "-f", "/dev/null"]
+    volumes:
+      - /volume1:/volume1
+      - /volume1/docker/script:/scripts
+    restart: always
