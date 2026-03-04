@@ -1,5 +1,13 @@
 # thumb_synology
-Script for generating thumbnails for video files viewable in File Station on Synology NAS
+Script for generating thumbnails icons for video files viewable in File Station on Synology NAS.
+
+The thumbnail triptych adapts according to the video orientation.
+
+The thumbnail are also visible in DS File on smartphones.
+
+![](https://github.com/gianlucaf81/thumb_synology/blob/main/media/small.png)
+![](https://github.com/gianlucaf81/thumb_synology/blob/main/media/medium.png)
+
 
 1 - The script requires ffmpeg to be installed (docker)
 
