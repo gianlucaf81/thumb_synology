@@ -31,7 +31,7 @@ services:
 ```bash
 docker exec ffmpeg bash /scripts/thumb_synology.sh "/volume1/YOUR_MEDIA_FOLDER"
 ```
-2.b - If necessary it is possible to force the regeneration of all thumbnails (even those already created) add the ```-force``` parameter
+2.b - If necessary it is possible to force the regeneration of all thumbnails (even those already created) add the ```force``` parameter
 ```bash
-docker exec ffmpeg bash /scripts/thumb_synology.sh "/volume1/YOUR_MEDIA_FOLDER" -force
+docker exec ffmpeg bash /scripts/thumb_synology.sh "/volume1/YOUR_MEDIA_FOLDER" force
 ```
