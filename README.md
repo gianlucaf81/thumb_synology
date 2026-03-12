@@ -11,7 +11,7 @@ The thumbnail are also visible in DS File on smartphones.
 
 1 - The script requires ffmpeg to be installed (docker)
 
-/docker/docker-compose.yaml
+/docker/ffmpeg/docker-compose.yaml
 ```bash
 services:
   ffmpeg:
